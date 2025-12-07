@@ -9,13 +9,26 @@
 [![](https://img.youtube.com/vi/gKtSeKtFF_E/0.jpg)](https://www.youtube.com/watch?v=gKtSeKtFF_E&ab_channel=caffeline)
 
 ## 依存ライブラリ
-- Python 3.x
-- [numpy](https://numpy.org/)
-- [matplotlib](https://matplotlib.org/)
-- [open3d](http://www.open3d.org/)
-- [pyvista](https://docs.pyvista.org/)
-- [PyQt5](https://pypi.org/project/PyQt5/)
-- [pyvistaqt](https://pypi.org/project/pyvistaqt/)
+
+2025.12.04にUbuntu 22.04で動作確認済み
+
+- Python 3.12
+- [numpy 2.2.6](https://numpy.org/)
+- [matplotlib 3.10.7](https://matplotlib.org/)
+- [open3d 0.19.0](http://www.open3d.org/)
+- [pyvista 0.46.4](https://docs.pyvista.org/)
+- [PyQt5 5.15.11](https://pypi.org/project/PyQt5/)
+- [pyvistaqt 0.11.3](https://pypi.org/project/pyvistaqt/)
+
+
+pytest==9.0.1
+pytest-qt==4.5.0
+PyQt5==5.15.11
+open3d==0.19.0
+pyvista==0.46.4
+pyvistaqt==0.11.3
+matplotlib==3.10.7
+
 
 ## インストールと実行方法
 このツールは、以下の2通りの方法で実行できます。

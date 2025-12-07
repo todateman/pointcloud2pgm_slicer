@@ -4,10 +4,10 @@
 import sys
 import argparse
 from PyQt5 import QtWidgets, QtCore, QtGui
-from model import PointCloudModel
-from view import PointCloudView
-from controller import PointCloudController
-from loader import PointCloudLoaderThread
+from .model import PointCloudModel
+from .view import PointCloudView
+from .controller import PointCloudController
+from .loader import PointCloudLoaderThread
 
 def main() -> None:
     parser = argparse.ArgumentParser()

@@ -1,3 +1,14 @@
 **/__pycache__/
 pointcloud2pgm_slicer/pointcloud2pgm_slicer.egg-info/
 .pytest_cache/
+pointcloud2pgm_slicer.egg-info
+
+# input & output files
+*.pcd
+*.ply
+*.pgm
+*.yaml
+
+# auto-created output directories
+output/
+outputs/

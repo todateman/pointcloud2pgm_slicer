@@ -10,7 +10,7 @@ import numpy as np
 import open3d as o3d
 import pyvista as pv
 from typing import Optional, Tuple
-from config import MIN_OCCUPIED_POINTS, VOXEL_SIZE
+from .config import MIN_OCCUPIED_POINTS, VOXEL_SIZE
 
 class IPointCloudModel(ABC):
     @abstractmethod
@@ -119,6 +119,9 @@ class PointCloudModel(IPointCloudModel):
         )
         accum = np.flipud(hist.T).astype(np.int32)
         image = np.where(accum >= MIN_OCCUPIED_POINTS, 0, 255).astype(np.uint8)
+
+        # 出力ディレクトリの作成（存在しない場合）
+        os.makedirs(output_dir, exist_ok=True)
 
         # PGMファイルの生成
         output_pgm = os.path.join(output_dir, output_filename)
