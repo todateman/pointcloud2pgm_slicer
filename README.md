@@ -10,7 +10,7 @@
 
 ## 依存ライブラリ
 
-2025.12.04にUbuntu 22.04で動作確認済み
+2025.12.04にUbuntu 22.04, 2025.12.07にWindows11で動作確認済み
 
 - Python 3.12
 - [numpy 2.2.6](https://numpy.org/)
@@ -19,15 +19,6 @@
 - [pyvista 0.46.4](https://docs.pyvista.org/)
 - [PyQt5 5.15.11](https://pypi.org/project/PyQt5/)
 - [pyvistaqt 0.11.3](https://pypi.org/project/pyvistaqt/)
-
-
-pytest==9.0.1
-pytest-qt==4.5.0
-PyQt5==5.15.11
-open3d==0.19.0
-pyvista==0.46.4
-pyvistaqt==0.11.3
-matplotlib==3.10.7
 
 
 ## インストールと実行方法

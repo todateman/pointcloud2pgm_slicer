@@ -4,8 +4,8 @@ Pythonパッケージマネージャ`uv`を使って本プロジェクトの開�
 
 ## 前提
 
-- OS: Linux (Ubuntu 22.04)
-- シェル: bash
+- OS: Linux (Ubuntu 22.04) / Windows11
+- シェル: bash / PowerShell
 - Python: 3.12 を推奨（`open3d` が 3.13 に未対応のため）
 - GUI 実行環境（PyQt5 / pyvistaqt によるレンダリングが必要）。  
   GUIなしで動かす場合は `xvfb-run` 等の仮想ディスプレイを利用してください。
